@@ -1,0 +1,7 @@
+Rio Time - Number
+Vision Time - Number
+Vision Computer Name - String
+Port Angle - Number
+Port Distance - Number
+Ball Angle - Number
+Ball Distance - Number

@@ -10,9 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Camera Setup Cluster.ctl" Type="VI" URL="../Utilities/Camera Setup Cluster.ctl"/>
-		<Item Name="TCP Vision - Sender.vi" Type="VI" URL="../Vision Server/TCP Vision - Sender.vi"/>
-		<Item Name="WOBOT 2020 Vision.vi" Type="VI" URL="../WOBOT 2020 Vision.vi"/>
+		<Item Name="2020 Vision" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -55,6 +55,12 @@
 				<Item Name="Handle Dirty Flags.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Flags.vi"/>
 				<Item Name="Handle Persistent Fields.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Persistent Fields.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
+				<Item Name="IMAQ AVI2 Codec Path.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Codec Path.ctl"/>
+				<Item Name="IMAQ AVI2 Get Info" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Get Info"/>
+				<Item Name="IMAQ AVI2 Open" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Open"/>
+				<Item Name="IMAQ AVI2 Read Frame" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Read Frame"/>
+				<Item Name="IMAQ AVI2 Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Refnum.ctl"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
@@ -64,7 +70,8 @@
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
 				<Item Name="Log Issues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Log Issues.vi"/>
@@ -140,45 +147,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="AE Ball Angle Distance.vi" Type="VI" URL="../Utilities/AE Ball Angle Distance.vi"/>
-			<Item Name="AE Camera Ball Image.vi" Type="VI" URL="../Utilities/AE Camera Ball Image.vi"/>
-			<Item Name="AE Camera Image.vi" Type="VI" URL="../Utilities/AE Camera Image.vi"/>
-			<Item Name="AE Upper Off Angle.vi" Type="VI" URL="../Utilities/AE Upper Off Angle.vi"/>
-			<Item Name="Area Scoring Ball.vi" Type="VI" URL="../Utilities/Area Scoring Ball.vi"/>
-			<Item Name="Area Scoring Rectangle.vi" Type="VI" URL="../Vision Support Code/Area Scoring Rectangle.vi"/>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision Support Code/Area Scoring.vi"/>
-			<Item Name="Aspect Ratio Ball.vi" Type="VI" URL="../Utilities/Aspect Ratio Ball.vi"/>
-			<Item Name="Aspect Ratio Rectangle.vi" Type="VI" URL="../Vision Support Code/Aspect Ratio Rectangle.vi"/>
-			<Item Name="Aspect Ratio.vi" Type="VI" URL="../Vision Support Code/Aspect Ratio.vi"/>
-			<Item Name="Calculate Distance.vi" Type="VI" URL="../Utilities/Calculate Distance.vi"/>
-			<Item Name="Calculate FPS Camera.vi" Type="VI" URL="../Utilities/Calculate FPS Camera.vi"/>
-			<Item Name="Calculate FPS Microsoft Camera.vi" Type="VI" URL="../Utilities/Calculate FPS Microsoft Camera.vi"/>
-			<Item Name="Calculate FPS.vi" Type="VI" URL="../Utilities/Calculate FPS.vi"/>
-			<Item Name="Calculate Particle Scores Ball.vi" Type="VI" URL="../Utilities/Calculate Particle Scores Ball.vi"/>
-			<Item Name="Calculate Particle Scores2.vi" Type="VI" URL="../Vision Support Code/Calculate Particle Scores2.vi"/>
-			<Item Name="Calibration Helper2.vi" Type="VI" URL="../Vision Support Code/Calibration Helper2.vi"/>
-			<Item Name="Camera Main.vi" Type="VI" URL="../Camera Main.vi"/>
-			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision Support Code/Camera Types.ctl"/>
-			<Item Name="Compute DistanceToBalls.vi" Type="VI" URL="../Utilities/Compute DistanceToBalls.vi"/>
-			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision Support Code/Compute DistanceToTarget2.vi"/>
-			<Item Name="Compute Offset Angle.vi" Type="VI" URL="../Utilities/Compute Offset Angle.vi"/>
-			<Item Name="Create Rotated Ellipse.vi" Type="VI" URL="../Vision Support Code/Create Rotated Ellipse.vi"/>
-			<Item Name="Dialog Get Team Number.vi" Type="VI" URL="../Vision Server/Dialog Get Team Number.vi"/>
-			<Item Name="Event Create Once.vi" Type="VI" URL="../Utilities/Event Create Once.vi"/>
-			<Item Name="Event Generate Event.vi" Type="VI" URL="../Utilities/Event Generate Event.vi"/>
-			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision Support Code/Get camera FOVs.vi"/>
-			<Item Name="Label Targets Ball.vi" Type="VI" URL="../Utilities/Label Targets Ball.vi"/>
-			<Item Name="Label Targets3.vi" Type="VI" URL="../Vision Support Code/Label Targets3.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Main Add to Queue.vi" Type="VI" URL="../Main State Machine/VI&apos;s/Main Add to Queue.vi"/>
-			<Item Name="Main Cluster.ctl" Type="VI" URL="../Main State Machine/Ctrl&apos;s/Main Cluster.ctl"/>
-			<Item Name="Main Get Next.vi" Type="VI" URL="../Main State Machine/VI&apos;s/Main Get Next.vi"/>
-			<Item Name="Main Queue.ctl" Type="VI" URL="../Main State Machine/Ctrl&apos;s/Main Queue.ctl"/>
-			<Item Name="Main States.ctl" Type="VI" URL="../Main State Machine/Ctrl&apos;s/Main States.ctl"/>
-			<Item Name="Maintain Loop Speed.vi" Type="VI" URL="../Maintain Loop Speed/Maintain Loop Speed.vi"/>
-			<Item Name="Moment Score Ball.vi" Type="VI" URL="../Utilities/Moment Score Ball.vi"/>
-			<Item Name="Moment Score Rectangle.vi" Type="VI" URL="../Vision Support Code/Moment Score Rectangle.vi"/>
-			<Item Name="Moment Score.vi" Type="VI" URL="../Vision Support Code/Moment Score.vi"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -191,11 +160,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Normalize Score.vi" Type="VI" URL="../Vision Support Code/Normalize Score.vi"/>
-			<Item Name="Project Point.vi" Type="VI" URL="../Vision Support Code/Project Point.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Utilities/Sorted Particle Report.vi"/>
-			<Item Name="Target Fields.ctl" Type="VI" URL="../Vision Support Code/Target Fields.ctl"/>
-			<Item Name="TCP Main States.ctl" Type="VI" URL="../Vision Server/TCP Main States.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WOBOT 2020 Vision" Type="EXE">
@@ -209,23 +173,23 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/WOBOT 2020 Vision</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF6516E1-ED42-4885-953D-E4CA61CE618D}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WOBOT 2020 Vision.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WOBOT 2020 Vision/WOBOT 2020 Vision.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/WOBOT 2020 Vision/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E31C4E76-CD87-4533-8221-9B5EC126CF9D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DA6E646E-EEA4-441F-8535-38D06012B191}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/WOBOT 2020 Vision.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/2020 Vision/WOBOT 2020 Vision.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>

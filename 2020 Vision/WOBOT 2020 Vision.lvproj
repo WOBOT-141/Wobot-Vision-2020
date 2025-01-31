@@ -248,7 +248,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/software/Vision EXE</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF6516E1-ED42-4885-953D-E4CA61CE618D}</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WOBOT 2020 Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/software/Vision EXE/NI_AB_PROJECTNAME.exe</Property>

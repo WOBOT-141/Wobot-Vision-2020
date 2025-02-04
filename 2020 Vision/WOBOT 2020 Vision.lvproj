@@ -161,11 +161,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Area Scoring Rectangle.vi" Type="VI" URL="../Vision Support Code/Target Packages/Area Scoring Rectangle.vi"/>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision Support Code/Target Packages/Area Scoring.vi"/>
-			<Item Name="Aspect Ratio Rectangle.vi" Type="VI" URL="../Vision Support Code/Target Packages/Aspect Ratio Rectangle.vi"/>
-			<Item Name="Aspect Ratio.vi" Type="VI" URL="../Vision Support Code/Target Packages/Aspect Ratio.vi"/>
-			<Item Name="Calculate Particle Scores2.vi" Type="VI" URL="../Vision Support Code/Calculate Particle Scores2.vi"/>
+			<Item Name="Check Client Computer Namevi.vi" Type="VI" URL="../Utilities/Check Client Computer Namevi.vi"/>
+			<Item Name="Compute DistanceTo April Tag.vi" Type="VI" URL="../Utilities/Compute DistanceTo April Tag.vi"/>
 			<Item Name="Cull and Group Vertical.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Cull and Group Vertical.vi"/>
 			<Item Name="Cull and Group.vi" Type="VI" URL="../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Cull and Group.vi"/>
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
@@ -176,8 +173,6 @@
 			</Item>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Label Targets2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Moment Score Rectangle.vi" Type="VI" URL="../Vision Support Code/Target Packages/Moment Score Rectangle.vi"/>
-			<Item Name="Moment Score.vi" Type="VI" URL="../Vision Support Code/Target Packages/Moment Score.vi"/>
 			<Item Name="navX Attitude.ctl" Type="VI" URL="/D/2017/Software Stuff/1094 Robot Code/Robot-Dashboard Shared Files/navX Attitude.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -194,9 +189,7 @@
 			<Item Name="ntcoreffi.dll" Type="Document" URL="ntcoreffi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Project Point.vi" Type="VI" URL="../Vision Support Code/Target Packages/Project Point.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Sorted Particle Report 2016.vi"/>
-			<Item Name="Target Fields.ctl" Type="VI" URL="../Vision Support Code/Target Packages/Target Fields.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WOBOT 2020 Vision" Type="EXE">
@@ -214,7 +207,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Software/Vision EXE</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF6516E1-ED42-4885-953D-E4CA61CE618D}</Property>
-				<Property Name="Bld_version.build" Type="Int">87</Property>
+				<Property Name="Bld_version.build" Type="Int">88</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WOBOT 2020 Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Software/Vision EXE/NI_AB_PROJECTNAME.exe</Property>

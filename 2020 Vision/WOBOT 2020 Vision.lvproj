@@ -177,6 +177,7 @@
 			</Item>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Label Targets2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Maintain Loop Speed.vi" Type="VI" URL="../Maintain Loop Speed/Maintain Loop Speed.vi"/>
 			<Item Name="navX Attitude.ctl" Type="VI" URL="/D/2017/Software Stuff/1094 Robot Code/Robot-Dashboard Shared Files/navX Attitude.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

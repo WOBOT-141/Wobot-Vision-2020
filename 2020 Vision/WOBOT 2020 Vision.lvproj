@@ -182,7 +182,6 @@
 			</Item>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Label Targets2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Maintain Loop Speed.vi" Type="VI" URL="../Maintain Loop Speed/Maintain Loop Speed.vi"/>
 			<Item Name="navX Attitude.ctl" Type="VI" URL="/D/2017/Software Stuff/1094 Robot Code/Robot-Dashboard Shared Files/navX Attitude.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -217,7 +216,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Software/Vision EXE</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF6516E1-ED42-4885-953D-E4CA61CE618D}</Property>
-				<Property Name="Bld_version.build" Type="Int">124</Property>
+				<Property Name="Bld_version.build" Type="Int">125</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WOBOT 2020 Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Software/Vision EXE/NI_AB_PROJECTNAME.exe</Property>
@@ -229,7 +228,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/2020 Vision/Utilities/Wobot.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B55C5B9-1981-4E94-8E58-BAB0AC80ADB4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE183A08-3DE1-41CE-8940-19D45EBF03F5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/2020 Vision/WOBOT 2020 Vision.vi</Property>

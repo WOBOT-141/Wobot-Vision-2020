@@ -13,6 +13,7 @@
 		<Item Name="2020 Vision" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Find Connected Cameras.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Camera Stuff/Find Connected Cameras.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

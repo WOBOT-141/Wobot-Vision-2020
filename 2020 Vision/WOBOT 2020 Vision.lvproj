@@ -13,6 +13,7 @@
 		<Item Name="2020 Vision" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Camera Play.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Camera Play.vi"/>
 		<Item Name="Score Particles.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Score Particles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

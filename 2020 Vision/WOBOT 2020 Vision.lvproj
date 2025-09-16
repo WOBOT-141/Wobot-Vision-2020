@@ -13,8 +13,6 @@
 		<Item Name="2020 Vision" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Camera Play.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Camera Play.vi"/>
-		<Item Name="Score Particles.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Score Particles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -198,6 +196,7 @@
 			<Item Name="Read Video Frames.vi" Type="VI" URL="../Vision Support Code/Camera Calibration/Read Video Frames.vi"/>
 			<Item Name="Rectangular Target Processing.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Rectangular Target Processing.vi"/>
 			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Rectangularity Score.vi"/>
+			<Item Name="Score Particles.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Vision/Score Particles.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Sorted Particle Report 2016.vi"/>
 			<Item Name="TCP Main States.ctl" Type="VI" URL="../Vision Server/TCP Main States.ctl"/>
 		</Item>

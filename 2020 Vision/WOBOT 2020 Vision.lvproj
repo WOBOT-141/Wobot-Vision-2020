@@ -29,10 +29,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Software/Vision EXE</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF6516E1-ED42-4885-953D-E4CA61CE618D}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2026</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">7</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">13</Property>
 				<Property Name="Destination[0].destName" Type="Str">WOBOT 2020 Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Software/Vision EXE/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -43,7 +43,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/2020 Vision/Utilities/Wobot.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DABC4D05-E0A1-455B-B007-A48069C66486}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FD193A5E-1E30-4E87-8F40-1B35D5A28E85}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/2020 Vision/WOBOT 2020 Vision.vi</Property>

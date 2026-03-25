@@ -15,6 +15,7 @@
 		</Item>
 		<Item Name="AprilTag Target Package Code 2.vi" Type="VI" URL="../../../Fast Tag/Vision Support Code/April Tags/AprilTag Target Package Code 2.vi"/>
 		<Item Name="Rectangle info to homography.vi" Type="VI" URL="../../../Fast Tag/Vision Support Code/April Tags/Rectangle info to homography.vi"/>
+		<Item Name="Test Find Edges.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Test Find Edges.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WOBOT 2020 Vision" Type="EXE">

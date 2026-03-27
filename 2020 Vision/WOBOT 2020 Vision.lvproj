@@ -45,7 +45,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/2020 Vision/Utilities/Wobot.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{62C49A0A-0C7A-4715-9D23-1B154A450A83}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEF5A07C-3D03-45F8-AC4A-574323F2BEF2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/2020 Vision/WOBOT 2020 Vision.vi</Property>

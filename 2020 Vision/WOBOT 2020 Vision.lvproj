@@ -16,6 +16,7 @@
 		<Item Name="Config" Type="Folder" URL="../../../../ProgramData/Vision/Config">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Sort Dot Matrix.vi" Type="VI" URL="../../../../Users/easterlt/OneDrive - JSJ Corporation/Desktop/Sort Dot Matrix.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WOBOT 2020 Vision" Type="EXE">
